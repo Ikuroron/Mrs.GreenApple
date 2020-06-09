@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+  height: 600px;
+  color: #403d3f;
+  font-family: 'Meiryo UI','Hannotate SC',sans-serif;
+  background-image: url(https://ogre.natalie.mu/media/news/music/2017/0708/mrsgreenapple_art201707.jpg?impolicy=lt&imwidth=1200);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(255, 255, 255, .8);
+  padding: 30px 100px;
+  margin-top: 2rem;
+
+  animation: anime1 2s ease;
+}
+
+.container span {
+  font-size: 3rem;
+}
+
+.container button {
+  width: 100%;
+  height: 8vh;
+}
+
+@keyframes anime1 {
+  0% {
+      opacity:  0;                /* 透明度指定 */
+      top: 50px;                  /* 位置指定 */
+  }
+  100% {
+      opacity:  1;                /* 透明度指定 */
+      top: 0;                     /* 位置指定 */
+  }
+}
+
+

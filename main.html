@@ -10,29 +10,27 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js" defer></script>
-
     <script src="./js/main.js" defer></script>
 </head>
 
 <body>
 
   <!-- ここから矢印 -->
-  <i class="arrow-up fas fa-arrow-up fa-4x"><img src="./img/arrow-up.png" alt=""></i>
+  <i class="arrow-up fas fa-arrow-up fa-4x"><img src="../img/arrow-up.png" alt=""></i>
 
 
   <!-- ここからheader -->
   <header>
-    <div class="scene1">
+    <div class="header">
       <div class="container">
-        <h1 class="header_text">3分でわかる！ Mrs. <span class="container-color">GREEN APPLE</span></h1>
+        <h1 class="header_text">3分でわかる!!　Mrs. <span class="container-color">GREEN APPLE</span></h1>
       </div>
         
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <img class="swiper-slide" src="https://mrsgreenapple.com/s3/skiyaki/uploads/link/image/26567/_%E3%83%99%E3%82%B9%E3%83%88%E3%83%90%E3%83%8A%E3%83%BCFIX-01.jpg" alt="best_album">
-          <img class="swiper-slide" src="https://ogre.natalie.mu/media/news/music/2017/0708/mrsgreenapple_art201707.jpg?impolicy=lt&imwidth=1200" alt="casual">
+          <img class="swiper-slide" src="https://spice.eplus.jp/images/R13xN70RvAW2y9IxC7QqRBxB1QPGDdfU5ikdc9JP9QzWtbinbq4nePVvky47ZvvZ" alt="">
           <img class="swiper-slide" src="https://img.barks.jp/image/review/1000156165/001.jpg" alt="ao_to_natsu">
-          <!-- <img class="swiper-slide" src="https://i.ytimg.com/vi/MMsPuaT75V8/maxresdefault.jpg" alt=""> -->
         </div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
@@ -41,18 +39,20 @@
   </header>
 
   <main>
+    <div class="scene1"></div>
+
     <div class="scene2">
       <h1>About them</h1>
     </div>
 
     <div class="scene3">
-      <!-- <img src="https://spice.eplus.jp/images/R13xN70RvAW2y9IxC7QqRBxB1QPGDdfU5ikdc9JP9QzWtbinbq4nePVvky47ZvvZ" alt="sitting"> -->
       <img class="pic1" src="https://mrsgreenapple.com/s3/skiyaki/uploads/artist_photo/image/8947/E60F79F4-D389-4F17-9911-5B4C66B74DBC.jpeg" alt="offical">
       <div class="about_them">
           <h3>Mrs. GREEN APPLE</h3>
           <p>2013年に結成した男女5人組ロックバンド。
           <br> グリーンアップルは、赤いリンゴになる前、熟す前の「今」（初心）
           <br> 気持ちを持ち続けていたいという意味も込められている。
+          <br>
           <br> 現在も『Mrs. GREEN APPLE』は、世界観がはっきりしていて、
           <br> メッセージ性の強い音楽を世間に輩出し続けています。
           </p>
@@ -220,8 +220,84 @@
       <img class="icon" src="https://www.instagram.com/p/Bvl5Gw0HB8o/media/?size=l" alt="offical">
     </div>
 
-    <div class="scene4">
+    <div class="scene10">
       <h1>Music</h1>
+    </div>
+
+    <div class="scene11">
+      <div class="scene11-left">
+        <img src="https://mrsgreenapple.com/s3/skiyaki/uploads/ckeditor/pictures/37773/UPCH-80434.jpg" alt="">
+        <img src="https://mrsgreenapple.com/s3/skiyaki/uploads/ckeditor/pictures/168812/content_MGA_AtoN_tsujo.jpg" alt="">
+      </div>
+
+      <div class="scene11-right">
+        <h1>Which one?</h1>
+        <h2>今のあなたにぴったりな曲を
+        <br> 診断してみよう♪</h2>
+
+        <form action="result.php" method="POST">
+
+          <h3 class="question-text">問１．最近いいことあった？</h3>
+          <div class="option">
+            <div>
+              <input class="option-text" type="radio" id="huey" name="q1" value="1"
+                     checked>
+              <label class="option-text" for="huey">めちゃくちゃいいことあった！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="dewey" name="q1" value="2"
+                     checked>
+              <label class="option-text" for="dewey">まぁまぁいいことあった！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="louie" name="q1" value="3"
+                     checked>
+              <label class="option-text" for="louie">最近は特にないかな！</label>
+            </div>
+          </div>
+        
+          <h3 class="question-text">問２．今の気分は？</h3>
+          <div class="option">
+            <div>
+              <input class="option-text" type="radio" id="huey" name="q2" value="1"
+                     checked>
+              <label class="option-text" for="huey">絶好調！ノリノリです！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="huey" name="q2" value="2"
+                     checked>
+              <label class="option-text" for="huey">いたって普通かな！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="dewey" name="q2" value="3"
+                     checked>
+              <label class="option-text" for="dewey">最悪。なんか疲れたかも！</label>
+            </div>
+          </div>
+        
+          <h3 class="question-text">問３．今、恋してる？</h3>
+          <div class="option">
+            <div>
+              <input class="option-text" type="radio" id="huey" name="q3" value="1"
+                     checked>
+              <label class="option-text" for="huey">バリバリしてます！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="huey" name="q3" value="2"
+                     checked>
+              <label class="option-text" for="huey">今はしてないかな！</label>
+            </div>
+            <div>
+              <input class="option-text" type="radio" id="louie" name="q3" value="3"
+                     checked>
+              <label class="option-text" for="louie">むしろ失恋しました！</label>
+            </div>
+          </div>
+          <input class="finish" type="submit" value="診断">
+      
+        </form>
+    
+      </div>
     </div>
 
     

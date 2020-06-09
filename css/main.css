@@ -1,8 +1,23 @@
 @charset "UTF-8";
 
 body{
-    width: 100vw;
+  width: 100vw;
+  color: #403d3f;
+  font-family: 'Meiryo UI','Hannotate SC',sans-serif;
+  animation: anime1 2s ease;
 }
+
+@keyframes anime1 {
+  0% {
+      opacity:  0;                /* 透明度指定 */
+      top: 50px;                  /* 位置指定 */
+  }
+  100% {
+      opacity:  1;                /* 透明度指定 */
+      top: 0;                     /* 位置指定 */
+  }
+}
+
 
 /* ここから矢印ボタン */
 .arrow-up {
@@ -19,34 +34,39 @@ body{
 }
 
 
-/* ここからheader */
-.scene1 {
-    height: 1200px;
-    /* background-image: url(https://wess.jp/wp/wp-content/uploads/2017/02/mga_runurnrun1.jpg); */
-    /* background-image: url(https://i.ytimg.com/vi/MMsPuaT75V8/maxresdefault.jpg); */
-    background-image: url(https://mrsgreenapple.com/s3/skiyaki/uploads/ckeditor/pictures/37773/UPCH-80434.jpg);
+/* ここからヘッダー */
+.header {
+    height: 900px;
+    background-image: url(https://i.ytimg.com/vi/h2bykFjZ94g/maxresdefault.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .container-color {
-    color: rgb(81, 151, 10);
+    color: rgb(124, 228, 20);
 }
 
 .header_text {
     width: 100%;
-    background-color: rgb(255, 255, 255, .5);
+    color: rgba(243, 241, 241, 0.932);
     font-size: 2.5rem;
     text-decoration: underline;
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1.5rem 0;
 }
 
 .swiper-container {
     width: 70%;
-    height: 85vh;
+    height: 80vh;
+}
+
+
+/* ここからMrs. GREEN APPLE 紹介 */
+.scene1 {
+  height: 800px;
+  background-image: url(http://rikutoh.info/wp-content/uploads/2015/12/Mrs.-GREEN-APPLE2.jpg);
+  background-size: cover;
 }
 
 .scene2 {
@@ -79,7 +99,6 @@ body{
 .scene3 h3 {
   text-align: center;
   font-size: 2rem;
-  /* margin-top: 1rem; */
   margin-bottom: 8rem;
 }
 
@@ -88,7 +107,10 @@ body{
   text-align: center;
 }
 
-.scene4 {
+
+/* ここからバンドメンバー紹介 */
+.scene4,
+.scene10 {
   height: 900px;
   background-color: black;
   color: white;
@@ -131,4 +153,64 @@ body{
 .table td {
   width: 1%;
   padding: 1rem 0;
+}
+
+
+/* ここから診断 */
+.scene11 {
+  display: flex;
+  justify-content: center;
+}
+
+.scene11-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.scene11-left img {
+  width: 640px;
+  height: 640px;
+}
+
+.scene11-right {
+  width: 50%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene11-right h1 {
+  font-size: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.scene11-right h2 {
+  background-color: rgb(68, 136, 187, .2);
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 2rem 5rem;
+  margin-bottom: 3rem;
+}
+
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3rem;
+}
+
+.question-text {
+  margin-bottom: 2rem;
+}
+
+.option-text {
+  margin-bottom: 1rem;
+}
+
+.finish {
+  width: 100%;
+  height: 8vh;
 }
