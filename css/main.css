@@ -73,19 +73,16 @@ body{
 }
 
 .scene2 {
-  height: 1000px;
+  height: 800px;
   display: flex;
-  font-size: 3rem;
+  font-size: 4rem;
   justify-content: center;
   align-items: center;
 }
 
 .scene3 {
   height: 1500px;
-  background-image: url(https://pics.prcm.jp/e8659ab8f6734/69962595/png/69962595_220x220.png);
-  background-size: initial;
-  background-attachment: fixed;
-  background-position: center;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -125,7 +122,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .scene5,
@@ -134,6 +131,12 @@ body{
 .scene8,
 .scene9 {
   display: flex;
+  position: relative;
+  left: -100%;
+  background-image: url(https://pics.prcm.jp/e8659ab8f6734/69962595/png/69962595_220x220.png);
+  background-size: initial;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .band {
