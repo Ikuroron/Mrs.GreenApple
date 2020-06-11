@@ -20,6 +20,7 @@ $(function(){
       }
 
 
+      // fadeIn一式
       let scene2Top = $('.scene2').offset().top;
       if (scrollTop >= scene2Top -190) {
           $('.scene2-text').fadeIn();
@@ -41,16 +42,8 @@ $(function(){
           $('.scene10-text').fadeOut();
       }
 
-      let scene11Top = $('.scene11').offset().top;
-      if (scrollTop >= scene11Top -500) {
-          $('.scene11-text').fadeIn();
-      } else {
-          $('.scene11-text').fadeOut();
-      }
 
-
-
-      // 画面表示時アニメーション
+      // メンバー紹介のアニメーション
       let scene5Top = $('.scene5').offset().top;
       if (scrollTop >= scene5Top -550) {
           $('.scene5').animate({ left: 0}, 1000);
@@ -75,10 +68,6 @@ $(function(){
       if (scrollTop >= scene9Top -550) {
           $('.scene9').animate({ left: 0}, 1000);
       }
-
-    
-
-      
   });
 })
 
@@ -114,8 +103,11 @@ var mySwiper = new Swiper ('.swiper-container', {
   },
 })
 
-// $('#js-show-btn').click(function ()　{
 
-// $('#newAlbum').fadeIn();
 
-// })
+// // videoタグ作成
+// var myVideo = document.createElement('video');
+// myVideo.src = 'https://www.radiantmediaplayer.com/media/bbb-360p.mp4';
+// myVideo.autoplay = true;
+
+// container.appendChild(myVideo);

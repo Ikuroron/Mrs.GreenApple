@@ -188,21 +188,21 @@ body{
   height: 1000px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
 .scene11-right h1 {
-  font-size: 4rem;
-  margin-top: 5rem;
+  font-size: 5rem;
+  margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
 .scene11-right h2 {
   background-color: rgb(68, 136, 187, .2);
-  font-size: 1.2rem;
-  line-height: 2rem;
-  padding: 2rem 5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 2rem 4rem;
   margin-bottom: 3rem;
 }
 
@@ -210,11 +210,11 @@ body{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .question-text {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .option-text {
