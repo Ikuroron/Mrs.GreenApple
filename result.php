@@ -78,8 +78,8 @@ if ( $total === 5 ) { ?>
 <?php 
 } else if ( $total === 13 ) { ?>
   <div>
-  <?php $result = "『春愁』"; ?>
-  <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E6%98%A5%E6%84%81/1441018133?i=1441018143&app=music"></iframe>
+  <?php $result = "『ア・プリオリ』"; ?>
+  <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/%E3%82%A2-%E3%83%97%E3%83%AA%E3%82%AA%E3%83%AA/1408505088?i=1408505420&app=music"></iframe>
   </div>
 
 <?php 

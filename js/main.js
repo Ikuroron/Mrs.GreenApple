@@ -102,12 +102,11 @@ var mySwiper = new Swiper ('.swiper-container', {
       delay: 1500,
   },
 })
-
-
-
 // // videoタグ作成
-// var myVideo = document.createElement('video');
-// myVideo.src = 'https://www.radiantmediaplayer.com/media/bbb-360p.mp4';
-// myVideo.autoplay = true;
+var container2 = document.getElementById('box1');
 
-// container.appendChild(myVideo);
+var myVideo = document.createElement('video');
+myVideo.src = 'https://www.radiantmediaplayer.com/media/bbb-360p.mp4';
+myVideo.autoplay = true;
+
+container2.appendChild(myVideo);
