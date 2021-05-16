@@ -190,7 +190,7 @@ body{
 
 .scene11-right {
   width: 50%;
-  margin: 3rem 3rem;
+  margin: 2.5rem 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -198,7 +198,7 @@ body{
 }
 
 .scene11-right h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -228,11 +228,11 @@ body{
 }
 
 form h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 form label {
-  font-size: 1rem;
+  font-size: .8rem;
 }
 
 .finish {
