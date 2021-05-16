@@ -36,7 +36,7 @@ body{
 
 /* ここからヘッダー */
 .header {
-    height: 900px;
+    height: 1500px;
     background-image: url(https://i.ytimg.com/vi/h2bykFjZ94g/maxresdefault.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -65,7 +65,6 @@ body{
 
 /* ここからMrs. GREEN APPLE 紹介 */
 .scene1 {
-  height: 800px;
   background-image: url(http://rikutoh.info/wp-content/uploads/2015/12/Mrs.-GREEN-APPLE2.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -80,14 +79,16 @@ body{
   align-items: center;
 }
 
+.scene2-text {
+  margin-bottom: 10rem;
+}
+
 .scene3 {
   height: 1500px;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .pic1 {
@@ -103,11 +104,12 @@ body{
 
 .scene3 h3 {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 8rem;
+  font-size: 3rem;
+  margin-bottom: 6rem;
 }
 
 .scene3 p {
+  font-size: 1.2rem;
   line-height: 2rem;
   text-align: center;
 }
@@ -116,7 +118,7 @@ body{
 /* ここからバンドメンバー紹介 */
 .scene4,
 .scene10 {
-  height: 900px;
+  height: 1000px;
   background-color: black;
   color: white;
   display: flex;
@@ -162,6 +164,7 @@ body{
 }
 
 .table td {
+  font-size: 1.5rem;
   width: 1%;
   padding: 1rem 0;
 }
@@ -179,16 +182,16 @@ body{
 }
 
 .scene11-left img {
-  width: 640px;
-  height: 640px;
+  width: 860px;
+  height: 860px;
+
 }
 
 .scene11-right {
   width: 50%;
-  height: 1000px;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
 }
 
@@ -200,10 +203,11 @@ body{
 
 .scene11-right h2 {
   background-color: rgb(68, 136, 187, .2);
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 2rem;
+  line-height: 4rem;
   padding: 2rem 4rem;
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .option {
@@ -214,11 +218,19 @@ body{
 }
 
 .question-text {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .option-text {
   margin-bottom: 1rem;
+}
+
+form h3 {
+  font-size: 1.3rem;
+}
+
+form label {
+  font-size: 1rem;
 }
 
 .finish {
